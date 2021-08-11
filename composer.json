@@ -1,0 +1,19 @@
+{
+    "name": "alistvennikov/templater",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Лиственников Алексей Евгеньевич"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/",
+            "test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpbench/phpbench": "^1.0",
+        "phpunit/phpunit": "^9"
+    }
+}
